@@ -1,5 +1,5 @@
 # sleep-box
-Simple Sleep Box implementation using ESP32, inspired by [Zuckerberg](https://www.dezeen.com/2019/05/03/mark-zuckerberg-sleep-box-design/).
+Simple Sleep Box implementation using ESP32, inspired by [Zuckerberg](https://www.dezeen.com/2019/05/03/mark-zuckerberg-sleep-box-design/). Also find this project on [Thingiverse](https://www.thingiverse.com/thing:4589556)!
 
 
 ![Sleep Box](https://user-images.githubusercontent.com/20517404/92324607-3455db00-f03b-11ea-8cbe-0cbba9596124.JPG)
