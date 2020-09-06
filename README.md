@@ -2,7 +2,7 @@
 Simple Sleep Box implementation using ESP32, inspired by [Zuckerberg](https://www.dezeen.com/2019/05/03/mark-zuckerberg-sleep-box-design/).
 
 ## Components
-1. Adafruit Huzzah32 (ADA3405) - project is also ESP8266 compatible - adjust the PIO config
+1. Adafruit Huzzah32 (ADA3405) - should also be ESP8266 compatible - adjust the PIO config and pin configuration
 2. 4x LEDs - 4 was chosen, 1 for each corner but less can be used if needed
 3. 4x Resistors - chosen for brightness, for the LEDs I used, 4.7k resistors worked well  
 4. 2x Self tapping screws - 2mm thread to keep the Huzzah in place when (dis)connecting the micro-USB
