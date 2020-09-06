@@ -34,4 +34,4 @@ See https://github.com/smurf0969/WiFiConnect/issues/5 for issues with the WiFiCo
 9. Place into housing so the LEDs are visable until the stop is met on both sides
 
 ## Operation
-- Once time is synchronized, ESP32 will perform timekeeping using built-in timers.
+- Once time is synchronized with NTP over WiFi, the ESP32 will perform timekeeping using built-in timers.
