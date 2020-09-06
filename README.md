@@ -1,5 +1,6 @@
 # sleep-box
 Simple Sleep Box implementation using ESP32, inspired by [Zuckerberg](https://www.dezeen.com/2019/05/03/mark-zuckerberg-sleep-box-design/).
+![Sleep Box](https://user-images.githubusercontent.com/20517404/92324607-3455db00-f03b-11ea-8cbe-0cbba9596124.JPG)
 
 ## Components
 1. Adafruit Huzzah32 (ADA3405) - should also be ESP8266 compatible - adjust the PIO config and pin configuration
@@ -32,6 +33,11 @@ See https://github.com/smurf0969/WiFiConnect/issues/5 for issues with the WiFiCo
 7. Join each LED positive leg to its own resistor (wrap the resistor wire round the LED leg for ease of soldering)
 8. Screw the Adafruit down
 9. Place into housing so the LEDs are visable until the stop is met on both sides
+
+![3D_Parts](https://user-images.githubusercontent.com/20517404/92324543-9a8e2e00-f03a-11ea-9ee4-e616c041d4ba.jpg)
+![Electronics](https://user-images.githubusercontent.com/20517404/92324549-ad086780-f03a-11ea-8ba5-a52f94544321.JPG)
+![Assembly](https://user-images.githubusercontent.com/20517404/92324604-2d2ecd00-f03b-11ea-956d-658c62958fed.JPG)
+
 
 ## Operation
 - Once time is synchronized with NTP over WiFi, the ESP32 will perform timekeeping using built-in timers.
